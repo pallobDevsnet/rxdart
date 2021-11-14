@@ -23,8 +23,10 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+//hello
 class _MyHomePageState extends State<MyHomePage> {
   Mainbloc mainbloc = Mainbloc();
+  late int i;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
